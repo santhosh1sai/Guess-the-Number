@@ -66,7 +66,7 @@ document.querySelector(".check").addEventListener("click", function () {
       //   document.querySelector(".message").textContent =
       displayMessage(guess > secretNumber ? "Too High!" : "Too Low!");
       score--;
-      //   document.querySelector(".score").textContent = score;
+      document.querySelector(".score").textContent = score;
     } else {
       document.querySelector(".message").textContent = "You Lost!";
       document.querySelector(".score").textContent = 0;
